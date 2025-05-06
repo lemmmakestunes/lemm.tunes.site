@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'Lato;';
+    src: url('./fonts/Lato/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Doto Rounded;';
+    src: url('./fonts/Doto/Doto_Rounded-Regular.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.lemmshit {
+    font-family: 'Doto Rounded';
+    font-weight: bolder;
+}
